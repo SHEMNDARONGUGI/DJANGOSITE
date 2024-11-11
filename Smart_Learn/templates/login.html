@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{%static 'css/login.css'%}">
+    <title>Log in</title>
+</head>
+<body>
+    <form action="">
+        <h3>Hi, Welcome back</h3>
+        <label for="username" class="details">username or email:</label><br>
+        <input type="text" id="username" placeholder="username or email" required="required"><br>
+
+        <label for="pwd" class="details">password:</label><br>
+        <input type="password" id="pwd" required="required" placeholder="password" min="12">
+
+        <div>
+
+            <input type="checkbox" id="check">
+            <label for="check" class="log">Stay logged in</label><br>
+            
+        </div>
+
+        <button>
+            <a href="#">Login</a>
+        </button><br>
+
+        <p>Don't have an account?<a href="#">Click here to Register...</a></p>
+    </form>
+</body>
+</html>

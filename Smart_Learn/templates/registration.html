@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    {% load static%}
+    <link rel="stylesheet" href="{% static 'css/register.css'%}">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navdiv">
+            
+                <h3 class="logo">Smart Learning Academy</h3>
+    
+
+           
+                <ul>
+
+                    <li><a href="#" target="_blank">Home</a></li>
+
+                    <li><a href="#" target="_blank">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQS</a></li>
+                    
+                </ul>
+            
+        </div>
+    </nav>
+
+    <form action="">
+        <legend>Fill this form to Sign Up</legend><br>
+        <label for="name" class="details">Full Name:</label><br>
+        <input type="text" max="20" required="required" id="name" placeholder="Name"><br>
+
+        <label for="email" class="details">Email:</label><br>
+        <input type="email" id="email" required="required" placeholder="abc@gmail.com"><br>
+
+        <label for="user" class="details">Username:</label><br>
+        <input type="text" placeholder="username" id="user" required="required"><br>
+
+        <label for="pwd" class="details">Password:</label><br>
+        <input type="password" placeholder="password" required="required" id="pwd" min="12"><br>
+
+        <label for="confirm" class="details">Confirm Password:</label><br>
+        <input type="password" placeholder="confirm password" min="12" required="required"><br>
+
+        <label for="tel" class="details">Phone Number</label><br>
+        <input type="tel" id="tel" placeholder="07 ** *** ***" required="required"><br>
+
+        
+        <label>How did you learn about us: </label><br>
+        <input type="radio" id="TikTok" name="learn">
+        <label for="Tiktok">TikTok</label><br>
+
+        <input type="radio" id="Facebook" name="learn">
+        <label for="Facebook">Facebook</label><br>
+
+        <input type="radio" id="Instagram" name="learn">
+        <label for="Instagram">Instagram</label><br>
+
+        <input type="radio" id="Telegram" name="learn">
+        <label for="Telegram">Telegram</label><br>
+
+        <input type="radio" id="email" name="learn">
+        <label for="email">Email</label><br>
+
+        <input type="radio" id="link" name="learn">
+        <label for="link">Linked-In</label><br>
+
+        <button>
+            <a href="#">Register</a>
+        </button>
+    </form>
+   
+</body>
+</html>

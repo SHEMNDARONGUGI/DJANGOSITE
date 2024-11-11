@@ -1,0 +1,105 @@
+body{
+    background-color: grey;
+}
+
+.navbar{
+    background-color: rgb(22, 21, 21);
+    font-family: 'Times New Roman';
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    
+
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 35px;
+    font-weight: bolder;
+    color: aliceblue;
+    padding-left: 30px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    text-decoration: none;
+}
+
+form{
+    color: black;
+    width: 50%;
+    margin:auto;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 8px rgb(14, 13, 13);
+}
+
+.details{
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+legend{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: Bolder;
+    font-family: 'Times New Roman';
+    color: white;
+
+}
+
+input[type="text"], input[type="email"], input[type="password"],input[type="tel"]{
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    width: 70%;
+    margin-top: 15px;
+
+
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus,input[type="tel"]:focus{
+    background-color: lightgray;
+}
+
+button{
+    background-color: grey;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    width: 70%;
+    margin-left: 100px;
+}
+
+
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
